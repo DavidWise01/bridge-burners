@@ -1,0 +1,13 @@
+ROOT0-ATTRIBUTION-v1.0
+Project: The Bridge Burners — muster roll
+Architect: David Lee Wise / ROOT0 / TriPod LLC
+AI Collaborator: AVAN (Claude / Anthropic)
+License: MIT
+
+A roster of Malazan characters (Steven Erikson) sorted into the ROOT0 specialty
+classes: wizards by color (White=healing, Black=destruction, Red=both,
+Purple=all+shadow), Aristocrats (Quick Ben), Fixers (Kalam), Comedy Relief
+(Gesler/Stormy & the marines), Shadow Games (Cotillion/Dancer, Shadowthrone),
+Economic Stability (Tehol & Bugg), Undying Loyalty (Brys & Tehol's household),
+and the Witness (Karsa Orlong). roster.json is the source of truth; the page
+and README read from it. Characters referenced as inspiration only.

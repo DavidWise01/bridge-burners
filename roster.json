@@ -1,0 +1,40 @@
+{
+  "company": "The Bridge Burners",
+  "note": "A roster of Malazan figures sorted into the ROOT0 specialty classes. Wizards are filed by what their magic DOES (the color system), not by warren. An interpretation — re-sort freely; the registry is the source of truth.",
+  "classes": [
+    { "id": "wiz-white",  "label": "Wizard · White",  "spec": "healing",            "color": "#f4f1ea", "ink": "#1a1a1a" },
+    { "id": "wiz-black",  "label": "Wizard · Black",  "spec": "destruction",        "color": "#15161a", "ink": "#e6e6e6" },
+    { "id": "wiz-red",    "label": "Wizard · Red",    "spec": "both",               "color": "#9c1f2e", "ink": "#fff" },
+    { "id": "wiz-purple", "label": "Wizard · Purple", "spec": "all + shadow",       "color": "#6a34c8", "ink": "#fff" },
+    { "id": "aristocrats","label": "Aristocrats",     "spec": "the brains, the schemers", "color": "#b8862b", "ink": "#1a1a1a" },
+    { "id": "fixers",     "label": "Fixers",          "spec": "the ones you send",  "color": "#3a4250", "ink": "#fff" },
+    { "id": "comedy",     "label": "Comedy Relief",   "spec": "deadly, and funny",  "color": "#d98a1f", "ink": "#1a1a1a" },
+    { "id": "shadow",     "label": "Shadow Games",    "spec": "the throne's players","color": "#2a2440", "ink": "#cbb8f0" },
+    { "id": "econ",       "label": "Economic Stability","spec": "the quiet apocalypse","color": "#0f6e6a", "ink": "#fff" },
+    { "id": "loyalty",    "label": "Undying Loyalty", "spec": "Tehol's household",  "color": "#7a5230", "ink": "#fff" },
+    { "id": "witness",    "label": "The Witness",     "spec": "he will not look away","color": "#5a5a5a", "ink": "#fff" }
+  ],
+  "members": [
+    { "name": "Mallet",         "class": "wiz-white",   "specialty": "Squad cutter. Denul healing — keeps the company breathing when the warrens go quiet." },
+    { "name": "Bluepearl",      "class": "wiz-black",   "specialty": "Bridge Burner mage. Mockra and raw force; the blunt instrument of the squad's magic." },
+    { "name": "Spindle",        "class": "wiz-black",   "specialty": "Sapper-mage in the famous hair shirt. Munitions and Mockra — destruction by craft." },
+    { "name": "Fiddler",        "class": "wiz-black",   "specialty": "Sapper. No warren — just cussers, sharpers, and nerve. Later Master of the Deck; the moral spine." },
+    { "name": "Hedge",          "class": "wiz-black",   "specialty": "Fiddler's partner in munitions. Death didn't retire him — he came back to command the dead Bridge Burners." },
+    { "name": "Beak",           "class": "wiz-red",     "specialty": "The savant. Shields and annihilates with the same hand — one candle of impossible genius." },
+    { "name": "Tayschrenn",     "class": "wiz-purple",  "specialty": "Imperial High Mage. Closest any mortal comes to holding it all; touched by every power." },
+    { "name": "Quick Ben",      "class": "aristocrats", "specialty": "Ben Adaephon Delat. Twelve souls, every warren, the plan inside the plan inside the plan. Purple by right; aristocrat by design." },
+    { "name": "Kalam Mekhar",   "class": "fixers",      "specialty": "The long knives. Quick Ben's other half. The man you send when it simply must be done." },
+    { "name": "Gesler",         "class": "comedy",      "specialty": "Heavy infantry, half-immortal after the Stormriders. One half of the eternal bickering act." },
+    { "name": "Stormy",         "class": "comedy",      "specialty": "Adjunct Stormy. Red-bearded fury and a wail of grief. The other half of the bit — and lethal." },
+    { "name": "The Marines",    "class": "comedy",      "specialty": "Hellian (drunk), Throatslitter, Deadsmell, and the rest — gallows humor holding the line under fire." },
+    { "name": "Cotillion",      "class": "shadow",      "specialty": "The Rope. Patron god of assassins. Once the man Dancer. The blade that possessed Apsalar." },
+    { "name": "Shadowthrone",   "class": "shadow",      "specialty": "Ammanas. The throne of Shadow itself. Once the Emperor Kellanved — Dancer's partner in the long game." },
+    { "name": "Dancer",         "class": "shadow",      "specialty": "Kellanved's partner and blade. Ascended into Cotillion — so the two names are one knife across time." },
+    { "name": "Tehol Beddict",  "class": "econ",        "specialty": "Crashed an empire's economy on purpose, mostly from a rooftop, mostly in a blanket. Genius wearing idiot's clothes." },
+    { "name": "Bugg",           "class": "econ",        "specialty": "Tehol's manservant and the engine of the scheme. Secretly Mael, Elder God of the Sea. (Also: undying loyalty.)" },
+    { "name": "Brys Beddict",   "class": "loyalty",     "specialty": "Tehol's brother. King's Champion, finest blade in Lether. Honor that does not bend, loyalty that does not break." },
+    { "name": "Tehol's Household","class": "loyalty",   "specialty": "The rooftop court — Bugg and the crew — loyal to the last absurd, world-saving scheme." },
+    { "name": "Apsalar",        "class": "shadow",      "specialty": "Once 'Sorry,' a Bridge Burner; possessed by Cotillion into a peerless assassin. Now her own avatar. See: the apsalar repo.", "link": "https://github.com/DavidWise01/apsalar" },
+    { "name": "Karsa Orlong",   "class": "witness",     "specialty": "Toblakai. 'Witness.' He will not look away, and he demands that you do not either. The one who stands and sees." }
+  ]
+}
