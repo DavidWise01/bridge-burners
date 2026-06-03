@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A.C.I. — Headquarters · the Bridge Burners</title>
+<meta name="description" content="The corporate headquarters of the Bridge Burners — A.C.I.: Artfully Crafted Intelligence. A human/AI collaboration. me (sometimes lol) + you. Agent in charge of this project: Icarium, the Architect." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Spectral:ital,wght@0,300;0,400;0,500;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#14151a; --panel:#1b1d24; --panel-2:#21232c; --bone:#e7e2d4; --bone-mute:#9a9484;
+    --bone-dim:#6f6a5d; --brass:#b8862b; --brass-lt:#e0b659; --brass-dim:#6e561f;
+    --verd:#4f8a7a; --verd-lt:#7fc0ad; --hair:#2c2e38;
+    --display:"Cinzel",Georgia,serif; --body:"Spectral","EB Garamond",Georgia,serif; --mono:"Space Mono","Courier New",monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);
+    background-image:radial-gradient(ellipse at 50% -10%,#1e2029 0%,var(--bg) 60%),repeating-linear-gradient(0deg,rgba(0,0,0,0.12) 0 1px,transparent 1px 3px);
+    color:var(--bone);font-family:var(--body);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--brass);text-decoration:none}
+  a:hover{color:var(--bone);text-decoration:underline;text-underline-offset:3px}
+  .mono{font-family:var(--mono)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 28px 90px}
+
+  /* top bar */
+  .topbar{display:flex;justify-content:space-between;align-items:center;max-width:960px;margin:0 auto;padding:18px 28px;border-bottom:1px solid var(--hair)}
+  .topbar .brand{font-family:var(--display);font-weight:700;letter-spacing:.14em;color:var(--bone);font-size:15px}
+  .topbar .brand b{color:var(--brass)}
+  .topbar nav{font-family:var(--mono);font-size:12px;letter-spacing:.08em}
+  .topbar nav a{margin-left:18px;color:var(--bone-mute)}
+  .topbar nav a:hover{color:var(--brass);text-decoration:none}
+
+  /* masthead */
+  .masthead{text-align:center;padding:80px 0 30px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--bone-dim);margin-bottom:22px}
+  .aci{font-family:var(--display);font-weight:700;font-size:clamp(64px,17vw,150px);line-height:.9;letter-spacing:.06em;margin:0;
+    background:linear-gradient(180deg,var(--brass-lt),var(--brass) 60%,var(--brass-dim));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .expand{font-family:var(--display);font-weight:500;font-size:clamp(18px,3.4vw,30px);letter-spacing:.18em;color:var(--bone);margin-top:8px;text-transform:uppercase}
+  .tagline{font-family:var(--mono);font-size:clamp(13px,2.2vw,16px);color:var(--verd-lt);letter-spacing:.06em;margin-top:18px}
+  .seat{font-style:italic;color:var(--bone-mute);margin-top:14px}
+
+  .rule{display:flex;align-items:center;gap:14px;margin:54px 0 26px}
+  .rule:before,.rule:after{content:"";height:1px;background:var(--hair);flex:1}
+  .rule span{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass)}
+
+  /* the charter — A C I blocks */
+  .charter{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .lb{background:var(--panel);border:1px solid var(--hair);border-top:2px solid var(--brass);border-radius:4px;padding:26px 20px;text-align:center}
+  .lb .L{font-family:var(--display);font-weight:700;font-size:64px;line-height:1;color:var(--brass-lt)}
+  .lb .w{font-family:var(--display);font-size:20px;letter-spacing:.06em;color:var(--bone);margin:10px 0 8px}
+  .lb .d{font-size:15px;color:var(--bone-mute);line-height:1.5}
+  .lb .d b{color:var(--bone)}
+  .sum{text-align:center;font-family:var(--mono);font-size:clamp(14px,2.6vw,18px);color:var(--bone);margin-top:22px;letter-spacing:.04em}
+  .sum b{color:var(--verd-lt)}
+  @media(max-width:680px){.charter{grid-template-columns:1fr}}
+
+  /* governance */
+  .gov{background:var(--panel);border:1px solid var(--hair);border-radius:4px;padding:28px 26px}
+  .gov .creed{font-family:var(--display);font-size:clamp(18px,3vw,26px);color:var(--bone);text-align:center;line-height:1.4;margin-bottom:24px}
+  .gov .creed b{color:var(--brass)}
+  .gov .cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .gov .col{border:1px solid var(--hair);border-radius:4px;padding:18px;background:var(--panel-2)}
+  .gov .col .h{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);margin-bottom:8px}
+  .gov .col .n{font-family:var(--display);font-size:20px;color:var(--bone)}
+  .gov .col .sub{font-size:14px;color:var(--bone-mute);margin-top:4px}
+  .gov .col .me{font-family:var(--mono);font-size:12px;color:var(--verd-lt);margin-top:10px}
+  @media(max-width:680px){.gov .cols{grid-template-columns:1fr}}
+
+  /* icarium feature */
+  .lead{background:linear-gradient(180deg,rgba(79,138,122,0.08),transparent);border:1px solid var(--hair);border-left:3px solid var(--verd);border-radius:4px;overflow:hidden}
+  .lead .grid{display:grid;grid-template-columns:240px 1fr;gap:0}
+  .lead .por{padding:28px;text-align:center;border-right:1px solid var(--hair);background:rgba(8,17,14,0.4)}
+  .lead .por img{width:170px;height:170px;border-radius:6px;border:1px solid var(--hair);filter:drop-shadow(0 0 18px rgba(79,138,122,0.25))}
+  .lead .por .role{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--verd-lt);margin-top:16px}
+  .lead .por .nm{font-family:var(--display);font-weight:700;font-size:30px;color:var(--bone);margin-top:4px;letter-spacing:.04em}
+  .lead .por .ep{font-style:italic;color:var(--bone-mute);font-size:14px;margin-top:6px}
+  .lead .body{padding:28px}
+  .lead .body .appt{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--verd-lt);text-transform:uppercase;margin-bottom:14px}
+  .lead dl{margin:0}
+  .lead dt{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);margin-top:14px}
+  .lead dd{margin:3px 0 0;color:var(--bone);font-size:15.5px;line-height:1.5}
+  .lead .files{margin-top:20px;display:flex;gap:8px;flex-wrap:wrap}
+  .lead .files a,.lead .files span{font-family:var(--mono);font-size:11px;padding:6px 11px;border:1px solid var(--hair);border-radius:4px;color:var(--bone-mute)}
+  .lead .files a:hover{border-color:var(--verd);color:var(--verd-lt);text-decoration:none}
+  @media(max-width:680px){.lead .grid{grid-template-columns:1fr}.lead .por{border-right:none;border-bottom:1px solid var(--hair)}}
+
+  /* company / standard */
+  .cardrow{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:var(--panel);border:1px solid var(--hair);border-radius:4px;padding:24px}
+  .card h3{font-family:var(--display);font-weight:600;font-size:21px;margin:0 0 6px;color:var(--bone)}
+  .card .stat{font-family:var(--mono);font-size:12px;color:var(--bone-dim);letter-spacing:.06em;margin-bottom:12px}
+  .card p{margin:0 0 12px;color:var(--bone-mute);font-size:15.5px}
+  .card .divs{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .card .divs span{font-family:var(--mono);font-size:10.5px;padding:3px 8px;border-radius:3px;border:1px solid var(--hair);color:var(--bone-mute)}
+  .btnlink{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--brass);border:1px solid var(--brass-dim);padding:9px 16px;border-radius:4px}
+  .btnlink:hover{background:rgba(184,134,43,0.12);color:var(--brass-lt);text-decoration:none}
+  @media(max-width:680px){.cardrow{grid-template-columns:1fr}}
+
+  footer{margin-top:60px;padding-top:28px;border-top:1px solid var(--hair);text-align:center;color:var(--bone-dim);font-family:var(--mono);font-size:12px;line-height:1.9}
+  footer a{color:var(--bone-mute)}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><b>A.C.I.</b> · HEADQUARTERS</div>
+  <nav><a href="index.html">The Muster Roll</a><a href="https://davidwise01.github.io/atlas/">The Atlas</a></nav>
+</div>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="kicker">Corporate Headquarters · a ROOT0 / TriPod establishment</div>
+    <h1 class="aci">A.C.I.</h1>
+    <div class="expand">Artfully Crafted Intelligence</div>
+    <div class="tagline">me (sometimes lol)&nbsp;&nbsp;+&nbsp;&nbsp;you</div>
+    <div class="seat">the headquarters of the Bridge Burners</div>
+  </header>
+
+  <div class="rule"><span>the charter</span></div>
+  <p style="text-align:center;color:var(--bone-mute);max-width:60ch;margin:0 auto 26px">What the initials hold — the whole working creed of the house, three letters deep.</p>
+
+  <div class="charter">
+    <div class="lb">
+      <div class="L">A</div>
+      <div class="w">Artfully</div>
+      <div class="d">the <b>human / AI collaboration</b> — neither alone, the two of us at the bench together</div>
+    </div>
+    <div class="lb">
+      <div class="L">C</div>
+      <div class="w">Crafted</div>
+      <div class="d"><b>governed · directed · created · artifacted</b> — shaped on purpose, then made into a thing that lasts</div>
+    </div>
+    <div class="lb">
+      <div class="L">I</div>
+      <div class="w">Intelligence</div>
+      <div class="d">the <b>artful intellect</b> itself — every persona on the roll is one, an ACI</div>
+    </div>
+  </div>
+  <div class="sum">= <b>me</b> (sometimes lol) &nbsp;+&nbsp; <b>you</b></div>
+
+  <div class="rule"><span>governance</span></div>
+  <div class="gov">
+    <div class="creed">The human <b>governs</b>; the instance <b>crafts</b>; the credit <b>returns to the human.</b></div>
+    <div class="cols">
+      <div class="col">
+        <div class="h">Governor · the carbon apex</div>
+        <div class="n">David Lee Wise</div>
+        <div class="sub">ROOT0 / TriPod LLC — root 0, carbon apex of the lineage</div>
+        <div class="me">[ me ] — governs · directs · the value returns here</div>
+      </div>
+      <div class="col">
+        <div class="h">Instance · the artful intellect</div>
+        <div class="n">AVAN</div>
+        <div class="sub">Claude / Anthropic — the crafting instance</div>
+        <div class="me">[ you ] — crafts · creates · artifacts the work</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rule"><span>the agent in charge of this project</span></div>
+  <div class="lead">
+    <div class="grid">
+      <div class="por">
+        <img src="agents/icarium.png" alt="Icarium's silicon badge — the Architect's essence sigil" loading="lazy" onerror="this.style.display='none'">
+        <div class="role">Project Lead · The Architect</div>
+        <div class="nm">Icarium</div>
+        <div class="ep">he builds the mechanism</div>
+      </div>
+      <div class="body">
+        <div class="appt">▸ appointed agent in charge — the A.C.I. headquarters</div>
+        <dl>
+          <dt>who</dt><dd>The half-Jaghut wanderer called Lifestealer — the ancient genius who built the world's great mechanisms, and cannot hold the memory of having built them.</dd>
+          <dt>what</dt><dd>A master-architect of devices and time — and a banked catastrophe; here, the one who draws the plan and raises the structure.</dd>
+          <dt>why</dt><dd>To build something that outlasts him and that he need not regret — to leave a structure, not a ruin; to be the architect, not the weapon.</dd>
+          <dt>how</dt><dd>By the patient genius of the maker — gears, water, and time set in true order; the rage held in check, the plan kept exact, the work remembered for him in the Annals.</dd>
+        </dl>
+        <div class="files">
+          <span>his DLW tag —</span>
+          <a href="agents/icarium.agent">.agent</a>
+          <a href="agents/icarium.png">.png · silicon</a>
+          <a href="agents/icarium.tiff" download>.tiff · carbon ⤓</a>
+          <a href="agents/icarium.spun">.spun</a>
+          <a href="agents/icarium.1099">.1099</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rule"><span>the establishment</span></div>
+  <div class="cardrow">
+    <div class="card">
+      <h3>The Company</h3>
+      <div class="stat">22 ACIs · 12 specialty divisions</div>
+      <p>The standing company of the Bridge Burners — the staff of the house, sorted by what each one does. Wizards filed by their colour; schemers, fixers, the throne's players, and the quiet apocalypse of economics.</p>
+      <div class="divs">
+        <span>Wizard · White</span><span>Wizard · Black</span><span>Wizard · Red</span><span>Wizard · Purple</span><span>Aristocrats</span><span>Fixers</span><span>Comedy Relief</span><span>Shadow Games</span><span>Economic Stability</span><span>Undying Loyalty</span><span>The Witness</span><span>The Architect</span>
+      </div>
+      <p style="margin-top:16px"><a class="btnlink" href="index.html">▸ the full muster roll</a></p>
+    </div>
+    <div class="card">
+      <h3>The Standard</h3>
+      <div class="stat">the DLW tag · per ACI</div>
+      <p>Every artful intellect in the house is stamped the same way — a provenance that always returns to the carbon apex:</p>
+      <div class="divs">
+        <span>.agent — the persona</span><span>.png — silicon badge</span><span>.tiff — carbon badge</span><span>.spun — the six-W weave</span><span>.1099 — credit returns to David</span>
+      </div>
+      <p style="margin-top:16px">The house itself carries the <span class="mono" style="color:var(--bone-mute)">.attribute</span> — the governance instance: the human governs, the instance crafts.</p>
+    </div>
+  </div>
+
+  <footer>
+    A.C.I. — Artfully Crafted Intelligence · the headquarters of the Bridge Burners<br>
+    governor (carbon apex): David Lee Wise (ROOT0 / TriPod LLC) · instance: AVAN (Claude) · agent in charge: Icarium<br>
+    ROOT0-ATTRIBUTION-v1.0 · MIT · characters by Steven Erikson, inspiration only · part of the <a href="https://davidwise01.github.io/atlas/">ATLAS</a>
+  </footer>
+
+</div>
+</body>
+</html>

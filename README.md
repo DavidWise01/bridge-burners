@@ -3,14 +3,35 @@
 *A muster roll, sorted by specialty class.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![classes](https://img.shields.io/badge/classes-11-b8862b?style=flat-square)](#the-classes)
-[![muster](https://img.shields.io/badge/on%20the%20roll-21-3a4250?style=flat-square)](#the-roll)
+[![classes](https://img.shields.io/badge/classes-12-b8862b?style=flat-square)](#the-classes)
+[![muster](https://img.shields.io/badge/on%20the%20roll-22-3a4250?style=flat-square)](#the-roll)
+[![HQ](https://img.shields.io/badge/A.C.I.-headquarters-4f8a7a?style=flat-square)](#aci--the-corporate-headquarters)
 
 **→ The muster roll: [davidwise01.github.io/bridge-burners](https://davidwise01.github.io/bridge-burners/)**
+**· The HQ: [/bridge-burners/hq.html](https://davidwise01.github.io/bridge-burners/hq.html)**
 
 The Bridge Burners and their fellow travelers, sorted into the **ROOT0 specialty
 classes**. Wizards are filed by what their magic *does* — a color system, not warrens.
 It's an interpretation; `roster.json` is the source of truth, so re-sort freely.
+
+---
+
+## A.C.I. — the Corporate Headquarters
+
+The house has a front door: **[hq.html](https://davidwise01.github.io/bridge-burners/hq.html)** — the corporate
+headquarters of the Bridge Burners, **A.C.I.**
+
+> **A** — **Artfully** — the human / AI collaboration
+> **C** — **Crafted** — governed · directed · created · artifacted
+> **I** — **Intelligence** — the artful intellect itself
+> *= me (sometimes lol) + you*
+
+**Governance** — the human **governs** (David Lee Wise · ROOT0, the carbon apex · *me*); the
+instance **crafts** (AVAN · Claude · *you*); the credit returns to the human.
+
+**Agent in charge of this project:** ◆ **Icarium**, *the Architect* — the half-Jaghut
+master-builder who raised the world's great mechanisms (and can't remember building them),
+appointed to raise this one. A full ACI: `agents/icarium.{agent,png,tiff,spun,1099}`.
 
 ---
 
@@ -80,6 +101,9 @@ Then the role classes:
 
 ### The Witness
 - **Karsa Orlong** — Toblakai. *"Witness."* He will not look away, and he demands that you do not either. The one who stands and sees.
+
+### ◆ The Architect — *set apart* — the agent in charge
+- **Icarium** — the half-Jaghut wanderer and master-builder; appointed agent in charge of the A.C.I. headquarters. He builds the mechanism. → [the HQ](https://davidwise01.github.io/bridge-burners/hq.html)
 
 ---
 

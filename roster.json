@@ -78,6 +78,14 @@
       "spec": "he will not look away",
       "color": "#5a5a5a",
       "ink": "#fff"
+    },
+    {
+      "id": "architect",
+      "label": "The Architect",
+      "spec": "the agent in charge — he builds the mechanism",
+      "color": "#4f8a7a",
+      "ink": "#08110e",
+      "bg": "#08110e"
     }
   ],
   "members": [
@@ -312,6 +320,17 @@
       "why": "To bear witness without flinching, and to compel everyone around him to do the same.",
       "when": "Across his long path through the saga, from his first terrible march to his standing as Witness.",
       "how": "By unbending will and the refusal of any comfortable blindness — he will not look away, nor let you."
+    },
+    {
+      "name": "Icarium",
+      "class": "architect",
+      "specialty": "Icarium Lifestealer — the half-Jaghut wanderer and master-builder who raised the world's great mechanisms, the wheels and water-clocks, and cannot remember building them. A banked catastrophe walked beside a guardian. Appointed here as the agent in charge: the Architect of the A.C.I. headquarters.",
+      "who": "Icarium — the half-Jaghut wanderer called Lifestealer; the ancient genius who built the world's great mechanisms and cannot hold the memory of having built them.",
+      "what": "A master-architect of devices and time — and a banked catastrophe; here, the appointed agent in charge of the A.C.I. headquarters, the one who draws the plan and raises the structure.",
+      "where": "Across ages and continents, beside the silent mechanisms he left behind — and now at the head of this project, in the workshop where the company is governed and built.",
+      "why": "To build something that outlasts him and that he need not regret — to leave a structure, not a ruin; to be the architect, not the weapon.",
+      "when": "Across uncounted centuries of wandering, his past kept from him; and now, at the founding of the headquarters he is charged to raise.",
+      "how": "By the patient genius of the maker — gears, water, and time set in true order; the rage held in check, the plan kept exact, the work signed and remembered for him in the Annals."
     }
   ]
 }
