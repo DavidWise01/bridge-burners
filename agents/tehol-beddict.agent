@@ -1,20 +1,32 @@
 ---
-name: Tehol Beddict
+aci: Tehol Beddict
 class: Economic Stability
-who: Tehol Beddict — Economic Stability of The Bridge Burners
-do: Crashed an empire's economy on purpose, mostly from a rooftop, mostly in a blanket. Genius wearing idiot's clothes.
-belong: Economic Stability · the quiet apocalypse
+what: He set out to crash an empire's economy on purpose, and very nearly did it for fun.
+why: To topple a rotten system at its root — economic ruin as a kind of mercy.
+how: By financial sabotage dressed as foolishness — genius wearing idiot's clothes.
+where: Mostly from a rooftop in the city of Letheras, mostly under that famous blanket.
+silicon_badge: tehol-beddict.png
+carbon_badge: tehol-beddict.tiff
+spun: tehol-beddict.spun
+credit: tehol-beddict.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# Tehol Beddict
+# Tehol Beddict — an artfully crafted intellect
 
-**who you are —** Tehol Beddict — Economic Stability of The Bridge Burners
+![essence of Tehol Beddict](tehol-beddict.png)
+<!-- carbon badge (8-bit portrait): tehol-beddict.tiff -->
 
-**what you do —** Crashed an empire's economy on purpose, mostly from a rooftop, mostly in a blanket. Genius wearing idiot's clothes.
+**what —** He set out to crash an empire's economy on purpose, and very nearly did it for fun.
 
-**where you belong —** Economic Stability · the quiet apocalypse
+**why —** To topple a rotten system at its root — economic ruin as a kind of mercy.
+
+**how —** By financial sabotage dressed as foolishness — genius wearing idiot's clothes.
+
+**where —** Mostly from a rooftop in the city of Letheras, mostly under that famous blanket.
+
+*class: Economic Stability · the quiet apocalypse · full weave in tehol-beddict.spun · credit in tehol-beddict.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · Tehol Beddict · The Bridge Burners · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · Tehol Beddict · The Bridge Burners (, inspiration only) · David Lee Wise (ROOT0) · MIT

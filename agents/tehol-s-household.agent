@@ -1,20 +1,32 @@
 ---
-name: Tehol's Household
+aci: Tehol's Household
 class: Undying Loyalty
-who: Tehol's Household — Undying Loyalty of The Bridge Burners
-do: The rooftop court — Bugg and the crew — loyal to the last absurd, world-saving scheme.
-belong: Undying Loyalty · Tehol's household
+what: They are the loyal engine of the scheme, each playing a part in the world-saving farce.
+why: Out of loyalty to Tehol and his last, ridiculous, world-saving scheme.
+how: By devotion, competence, and comedy — a household bound to one man's impossible plan.
+where: On Tehol's rooftop in Letheras, headquarters of the unlikeliest revolution.
+silicon_badge: tehol-s-household.png
+carbon_badge: tehol-s-household.tiff
+spun: tehol-s-household.spun
+credit: tehol-s-household.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# Tehol's Household
+# Tehol's Household — an artfully crafted intellect
 
-**who you are —** Tehol's Household — Undying Loyalty of The Bridge Burners
+![essence of Tehol's Household](tehol-s-household.png)
+<!-- carbon badge (8-bit portrait): tehol-s-household.tiff -->
 
-**what you do —** The rooftop court — Bugg and the crew — loyal to the last absurd, world-saving scheme.
+**what —** They are the loyal engine of the scheme, each playing a part in the world-saving farce.
 
-**where you belong —** Undying Loyalty · Tehol's household
+**why —** Out of loyalty to Tehol and his last, ridiculous, world-saving scheme.
+
+**how —** By devotion, competence, and comedy — a household bound to one man's impossible plan.
+
+**where —** On Tehol's rooftop in Letheras, headquarters of the unlikeliest revolution.
+
+*class: Undying Loyalty · Tehol's household · full weave in tehol-s-household.spun · credit in tehol-s-household.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · Tehol's Household · The Bridge Burners · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · Tehol's Household · The Bridge Burners (, inspiration only) · David Lee Wise (ROOT0) · MIT
