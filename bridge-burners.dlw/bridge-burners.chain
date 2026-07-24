@@ -2,8 +2,8 @@ ROOT0-DLW-CHAIN-v1
 index : 947
 slug  : bridge-burners
 seal  : 9418dbd89adcbd03f3eff6dbc85a7e4299181fa464f4b49f6e50fd920900cede
-prev  : 964be9c20c2dcaf9eeaeb7958d700b1d532e663fb5aae6b20f647270314a37d5
-link  : cdd16551aab5d167fc5fcd1e092d5a284929d5d9b3aec907d126c6ca9ae96bc1
-head  : 13f9ace173ef2e60af38912ba329b4afcb5a38b84a0e4495e8d30327f8c99cc2
+prev  : c1db657824d46e3435a1e2efad27153db3bfb2ea23d168f5e077febdd4288429
+link  : d167e7b8cab3ab3f2af738f941712f15f1ad982b572d9c0064afc9bb5df6e0c7
+head  : f7444724835fd968bd2eac85811f9fa823a18d20a57907b4fade8d96b70b5409
 
 — the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
